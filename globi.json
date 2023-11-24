@@ -1,0 +1,812 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&id=1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8&gid=776329546",
+    "dcterms:bibliographicCitation" : "Luisa Carvalheiro, José Augusto Salim, Filipi Soares, Debora Drucker. 2023. WorldFAIR pilot data from: VisitationData_Luisa_Carvalheiro. ",
+    "delimiter" : "\t",
+    "headerRowCount" : 5,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceCatalogNumber",
+        "titles" : "Catalog Number",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceRecordNumber",
+        "titles" : "Record Number",
+        "datatype" : "string"
+      }, {
+        "name" : "Recorded By",
+        "titles" : "Recorded By",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexLabel",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageLabel",
+        "titles" : "Life Stage",
+        "datatype" : "string"
+      }, {
+        "name" : "Reproductive Condition",
+        "titles" : "Reproductive Condition",
+        "datatype" : "string"
+      }, {
+        "name" : "Establishment Means",
+        "titles" : "Establishment Means",
+        "datatype" : "string"
+      }, {
+        "name" : "Occurrence Status",
+        "titles" : "Occurrence Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Preparations",
+        "titles" : "Preparations",
+        "datatype" : "string"
+      }, {
+        "name" : "Disposition",
+        "titles" : "Disposition",
+        "datatype" : "string"
+      }, {
+        "name" : "Associated Media",
+        "titles" : "Associated Media",
+        "datatype" : "string"
+      }, {
+        "name" : "Associated References",
+        "titles" : "Associated References",
+        "datatype" : "string"
+      }, {
+        "name" : "Occurrence Remarks",
+        "titles" : "Occurrence Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Organism Quantity",
+        "titles" : "Organism Quantity",
+        "datatype" : "string"
+      }, {
+        "name" : "Organism Quantity Type",
+        "titles" : "Organism Quantity Type",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Scientific Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Accepted Name Usage",
+        "titles" : "Accepted Name Usage",
+        "datatype" : "string"
+      }, {
+        "name" : "Parent Name Usage",
+        "titles" : "Parent Name Usage",
+        "datatype" : "string"
+      }, {
+        "name" : "Original Name Usage",
+        "titles" : "Original Name Usage",
+        "datatype" : "string"
+      }, {
+        "name" : "Name According To",
+        "titles" : "Name According To",
+        "datatype" : "string"
+      }, {
+        "name" : "Higher Classification",
+        "titles" : "Higher Classification",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonKingdom",
+        "titles" : "Kingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylum",
+        "titles" : "Phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClass",
+        "titles" : "Class",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubgenus",
+        "titles" : "Subgenus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithet",
+        "titles" : "Specific Epithet",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonInfraspecificEpithet",
+        "titles" : "Infraspecific Epithet",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonRank",
+        "titles" : "Taxon Rank",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Taxon Rank",
+        "titles" : "Verbatim Taxon Rank",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonAuthorship",
+        "titles" : "Scientific Name Authorship",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonCommonName",
+        "titles" : "Vernacular Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Nomenclatural Code",
+        "titles" : "Nomenclatural Code",
+        "datatype" : "string"
+      }, {
+        "name" : "Taxonomic Status",
+        "titles" : "Taxonomic Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Nomenclatural Status",
+        "titles" : "Nomenclatural Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Taxon Remarks",
+        "titles" : "Taxon Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Qualifier",
+        "titles" : "Identification Qualifier",
+        "datatype" : "string"
+      }, {
+        "name" : "Type Status",
+        "titles" : "Type Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Identified By",
+        "titles" : "Identified By",
+        "datatype" : "string"
+      }, {
+        "name" : "Date Identified",
+        "titles" : "Date Identified",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification References",
+        "titles" : "Identification References",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Verification Status",
+        "titles" : "Identification Verification Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Remarks",
+        "titles" : "Identification Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Anther Dehiscence Type",
+        "titles" : "Anther Dehiscence Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Apomitic System Embryo Origin",
+        "titles" : "Apomitic System Embryo Origin",
+        "datatype" : "string"
+      }, {
+        "name" : "Apomitic System Fertilization",
+        "titles" : "Apomitic System Fertilization",
+        "datatype" : "string"
+      }, {
+        "name" : "Apomitic System Reproduction",
+        "titles" : "Apomitic System Reproduction",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Abundance",
+        "titles" : "Flower Abundance",
+        "datatype" : "string"
+      }, {
+        "name" : "Floral Attractants",
+        "titles" : "Floral Attractants",
+        "datatype" : "string"
+      }, {
+        "name" : "Floral Symmetry",
+        "titles" : "Floral Symmetry",
+        "datatype" : "string"
+      }, {
+        "name" : "Floral System",
+        "titles" : "Floral System",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Shape",
+        "titles" : "Flower Shape",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Orientation",
+        "titles" : "Flower Orientation",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Longevity",
+        "titles" : "Flower Longevity",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Opening Period",
+        "titles" : "Flower Opening Period",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Opening Type",
+        "titles" : "Flower Opening Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Functional Flower Lifespan In Hours",
+        "titles" : "Functional Flower Lifespan In Hours",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant Habit",
+        "titles" : "Plant Habit",
+        "datatype" : "string"
+      }, {
+        "name" : "Human Use",
+        "titles" : "Human Use",
+        "datatype" : "string"
+      }, {
+        "name" : "Mating System",
+        "titles" : "Mating System",
+        "datatype" : "string"
+      }, {
+        "name" : "Ovule Quantity",
+        "titles" : "Ovule Quantity",
+        "datatype" : "string"
+      }, {
+        "name" : "Self Incompatibility Type",
+        "titles" : "Self Incompatibility Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Sexual System",
+        "titles" : "Sexual System",
+        "datatype" : "string"
+      }, {
+        "name" : "Anther Pollen Grains Quantity",
+        "titles" : "Anther Pollen Grains Quantity",
+        "datatype" : "string"
+      }, {
+        "name" : "Stigmatic Area In Square Milimiters",
+        "titles" : "Stigmatic Area In Square Milimiters",
+        "datatype" : "string"
+      }, {
+        "name" : "Style Length In Milimiters",
+        "titles" : "Style Length In Milimiters",
+        "datatype" : "string"
+      }, {
+        "name" : "Number Of Removed Pollen Grains",
+        "titles" : "Number Of Removed Pollen Grains",
+        "datatype" : "string"
+      }, {
+        "name" : "Number Of Conspecific Pollen Grains",
+        "titles" : "Number Of Conspecific Pollen Grains",
+        "datatype" : "string"
+      }, {
+        "name" : "Number Of Heterospecific Pollen Grains",
+        "titles" : "Number Of Heterospecific Pollen Grains",
+        "datatype" : "string"
+      }, {
+        "name" : "Number Of Fertilized Ovules",
+        "titles" : "Number Of Fertilized Ovules",
+        "datatype" : "string"
+      }, {
+        "name" : "Number Of Pollen Tubes",
+        "titles" : "Number Of Pollen Tubes",
+        "datatype" : "string"
+      }, {
+        "name" : "Seed Mass In Miligrams",
+        "titles" : "Seed Mass In Miligrams",
+        "datatype" : "string"
+      }, {
+        "name" : "Seed Set",
+        "titles" : "Seed Set",
+        "datatype" : "string"
+      }, {
+        "name" : "Fruit Mass In Grams",
+        "titles" : "Fruit Mass In Grams",
+        "datatype" : "string"
+      }, {
+        "name" : "Fruit Set",
+        "titles" : "Fruit Set",
+        "datatype" : "string"
+      }, {
+        "name" : "Number Of Exposed Flowers",
+        "titles" : "Number Of Exposed Flowers",
+        "datatype" : "string"
+      }, {
+        "name" : "Accumlated Nectar Volume In Microliters",
+        "titles" : "Accumlated Nectar Volume In Microliters",
+        "datatype" : "string"
+      }, {
+        "name" : "Accumulated Nectar Concentration",
+        "titles" : "Accumulated Nectar Concentration",
+        "datatype" : "string"
+      }, {
+        "name" : "Accumulated Nectar Hours",
+        "titles" : "Accumulated Nectar Hours",
+        "datatype" : "string"
+      }, {
+        "name" : "Accumulated Nectar Flowers",
+        "titles" : "Accumulated Nectar Flowers",
+        "datatype" : "string"
+      }, {
+        "name" : "License",
+        "titles" : "License",
+        "datatype" : "string"
+      }, {
+        "name" : "Rights Holder",
+        "titles" : "Rights Holder",
+        "datatype" : "string"
+      }, {
+        "name" : "Access Rights",
+        "titles" : "Access Rights",
+        "datatype" : "string"
+      }, {
+        "name" : "Bibliographic Citation",
+        "titles" : "Bibliographic Citation",
+        "datatype" : "string"
+      }, {
+        "name" : "References",
+        "titles" : "References",
+        "datatype" : "string"
+      }, {
+        "name" : "Institution ID",
+        "titles" : "Institution ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Collection ID",
+        "titles" : "Collection ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Institution Code",
+        "titles" : "Institution Code",
+        "datatype" : "string"
+      }, {
+        "name" : "Collection Code",
+        "titles" : "Collection Code",
+        "datatype" : "string"
+      }, {
+        "name" : "Owner Institution Code",
+        "titles" : "Owner Institution Code",
+        "datatype" : "string"
+      }, {
+        "name" : "Basis of Record",
+        "titles" : "Basis of Record",
+        "datatype" : "string"
+      }, {
+        "name" : "Higher Geography",
+        "titles" : "Higher Geography",
+        "datatype" : "string"
+      }, {
+        "name" : "Continent",
+        "titles" : "Continent",
+        "datatype" : "string"
+      }, {
+        "name" : "Water Body",
+        "titles" : "Water Body",
+        "datatype" : "string"
+      }, {
+        "name" : "Island Group",
+        "titles" : "Island Group",
+        "datatype" : "string"
+      }, {
+        "name" : "Island",
+        "titles" : "Island",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "Country Code",
+        "titles" : "Country Code",
+        "datatype" : "string"
+      }, {
+        "name" : "State Province",
+        "titles" : "State Province",
+        "datatype" : "string"
+      }, {
+        "name" : "County",
+        "titles" : "County",
+        "datatype" : "string"
+      }, {
+        "name" : "Municipality",
+        "titles" : "Municipality",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Locality",
+        "titles" : "Verbatim Locality",
+        "datatype" : "string"
+      }, {
+        "name" : "Minimum Elevation In Meters",
+        "titles" : "Minimum Elevation In Meters",
+        "datatype" : "string"
+      }, {
+        "name" : "Maximum Elevation In Meters",
+        "titles" : "Maximum Elevation In Meters",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Elevation",
+        "titles" : "Verbatim Elevation",
+        "datatype" : "string"
+      }, {
+        "name" : "Location According To",
+        "titles" : "Location According To",
+        "datatype" : "string"
+      }, {
+        "name" : "Location Remarks",
+        "titles" : "Location Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Decimal Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Decimal Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "Geodetic Datum",
+        "titles" : "Geodetic Datum",
+        "datatype" : "string"
+      }, {
+        "name" : "Coordinate Uncertainty In Meters",
+        "titles" : "Coordinate Uncertainty In Meters",
+        "datatype" : "string"
+      }, {
+        "name" : "Coordinate Precision",
+        "titles" : "Coordinate Precision",
+        "datatype" : "string"
+      }, {
+        "name" : "Point Radius Spatial Fit",
+        "titles" : "Point Radius Spatial Fit",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Coordinates",
+        "titles" : "Verbatim Coordinates",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Latitude",
+        "titles" : "Verbatim Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Longitude",
+        "titles" : "Verbatim Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Coordinate System",
+        "titles" : "Verbatim Coordinate System",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim SRS",
+        "titles" : "Verbatim SRS",
+        "datatype" : "string"
+      }, {
+        "name" : "Georeferenced By",
+        "titles" : "Georeferenced By",
+        "datatype" : "string"
+      }, {
+        "name" : "Georeferenced Date",
+        "titles" : "Georeferenced Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Georeference Protocol",
+        "titles" : "Georeference Protocol",
+        "datatype" : "string"
+      }, {
+        "name" : "Georeference Sources",
+        "titles" : "Georeference Sources",
+        "datatype" : "string"
+      }, {
+        "name" : "Georeference Verification Status",
+        "titles" : "Georeference Verification Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Georeference Remarks",
+        "titles" : "Georeference Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Field Number",
+        "titles" : "Field Number",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Event Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Event Time",
+        "titles" : "Event Time",
+        "datatype" : "string"
+      }, {
+        "name" : "Start Day Of Year",
+        "titles" : "Start Day Of Year",
+        "datatype" : "string"
+      }, {
+        "name" : "End Day Of Year",
+        "titles" : "End Day Of Year",
+        "datatype" : "string"
+      }, {
+        "name" : "Year",
+        "titles" : "Year",
+        "datatype" : "string"
+      }, {
+        "name" : "Month",
+        "titles" : "Month",
+        "datatype" : "string"
+      }, {
+        "name" : "Day",
+        "titles" : "Day",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim EventDate",
+        "titles" : "Verbatim EventDate",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling Protocol",
+        "titles" : "Sampling Protocol",
+        "datatype" : "string"
+      }, {
+        "name" : "Sample Size Value",
+        "titles" : "Sample Size Value",
+        "datatype" : "string"
+      }, {
+        "name" : "Sample Size Unit",
+        "titles" : "Sample Size Unit",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling Effort",
+        "titles" : "Sampling Effort",
+        "datatype" : "string"
+      }, {
+        "name" : "Field Notes",
+        "titles" : "Field Notes",
+        "datatype" : "string"
+      }, {
+        "name" : "Event Remarks",
+        "titles" : "Event Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Visited Flower Sex",
+        "titles" : "Visited Flower Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "Animal Place Of Contact",
+        "titles" : "Animal Place Of Contact",
+        "datatype" : "string"
+      }, {
+        "name" : "Colored Flower Structure",
+        "titles" : "Colored Flower Structure",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Color",
+        "titles" : "Flower Color",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBodyPartName",
+        "titles" : "Nectar Collecting Body Part",
+        "datatype" : "string"
+      }, {
+        "name" : "Nectar Collecting Body Part Length In Milimiters",
+        "titles" : "Nectar Collecting Body Part Length In Milimiters",
+        "datatype" : "string"
+      }, {
+        "name" : "Visited Flowers Quantity",
+        "titles" : "Visited Flowers Quantity",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Place Of Contact",
+        "titles" : "Flower Place Of Contact",
+        "datatype" : "string"
+      }, {
+        "name" : "Resource Collected",
+        "titles" : "Resource Collected",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "Interaction type",
+        "datatype" : "string"
+      }, {
+        "name" : "targetCatalogNumber",
+        "titles" : "Catalog Number",
+        "datatype" : "string"
+      }, {
+        "name" : "targetRecordNumber",
+        "titles" : "Record Number",
+        "datatype" : "string"
+      }, {
+        "name" : "Recorded By",
+        "titles" : "Recorded By",
+        "datatype" : "string"
+      }, {
+        "name" : "targetSexName",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifeStageName",
+        "titles" : "Life Stage",
+        "datatype" : "string"
+      }, {
+        "name" : "Behavior",
+        "titles" : "Behavior",
+        "datatype" : "string"
+      }, {
+        "name" : "Establishment Means",
+        "titles" : "Establishment Means",
+        "datatype" : "string"
+      }, {
+        "name" : "Occurrence Status",
+        "titles" : "Occurrence Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Preparations",
+        "titles" : "Preparations",
+        "datatype" : "string"
+      }, {
+        "name" : "Disposition",
+        "titles" : "Disposition",
+        "datatype" : "string"
+      }, {
+        "name" : "Associated Media",
+        "titles" : "Associated Media",
+        "datatype" : "string"
+      }, {
+        "name" : "Associated References",
+        "titles" : "Associated References",
+        "datatype" : "string"
+      }, {
+        "name" : "Occurrence Remarks",
+        "titles" : "Occurrence Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Organism Quantity",
+        "titles" : "Organism Quantity",
+        "datatype" : "string"
+      }, {
+        "name" : "Organism Quantity Type",
+        "titles" : "Organism Quantity Type",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Scientific Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Accepted Name Usage",
+        "titles" : "Accepted Name Usage",
+        "datatype" : "string"
+      }, {
+        "name" : "Parent Name Usage",
+        "titles" : "Parent Name Usage",
+        "datatype" : "string"
+      }, {
+        "name" : "Original Name Usage",
+        "titles" : "Original Name Usage",
+        "datatype" : "string"
+      }, {
+        "name" : "Name According To",
+        "titles" : "Name According To",
+        "datatype" : "string"
+      }, {
+        "name" : "Higher Classification",
+        "titles" : "Higher Classification",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonKingdom",
+        "titles" : "Kingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylum",
+        "titles" : "Phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClass",
+        "titles" : "Class",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrder",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubgenus",
+        "titles" : "Subgenus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithet",
+        "titles" : "Specific Epithet",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonInfraspecificEpithet",
+        "titles" : "Infraspecific Epithet",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonRank",
+        "titles" : "Taxon Rank",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Taxon Rank",
+        "titles" : "Verbatim Taxon Rank",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonAuthorship",
+        "titles" : "Scientific Name Authorship",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonCommonName",
+        "titles" : "Vernacular Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Nomenclatural Code",
+        "titles" : "Nomenclatural Code",
+        "datatype" : "string"
+      }, {
+        "name" : "Taxonomic Status",
+        "titles" : "Taxonomic Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Nomenclatural Status",
+        "titles" : "Nomenclatural Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Taxon Remarks",
+        "titles" : "Taxon Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Qualifier",
+        "titles" : "Identification Qualifier",
+        "datatype" : "string"
+      }, {
+        "name" : "Type Status",
+        "titles" : "Type Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Identified By",
+        "titles" : "Identified By",
+        "datatype" : "string"
+      }, {
+        "name" : "Date Identified",
+        "titles" : "Date Identified",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification References",
+        "titles" : "Identification References",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Verification Status",
+        "titles" : "Identification Verification Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Remarks",
+        "titles" : "Identification Remarks",
+        "datatype" : "string"
+      }, {
+        "name" : "Caste",
+        "titles" : "Caste",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
