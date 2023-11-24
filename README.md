@@ -2,4 +2,4 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-bla
+Luisa Carvalheiro, José Augusto Salim, Filipi Soares, Debora Drucker. 2023. WorldFAIR pilot data from: VisitationData_Luisa_Carvalheiro. https://docs.google.com/spreadsheets/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8 
