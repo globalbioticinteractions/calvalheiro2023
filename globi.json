@@ -15,11 +15,11 @@
     "null" : [ "" ],
     "tableSchema" : {
       "columns" : [ {
-        "name" : "sourceCatalogNumber",
+        "name" : "targetCatalogNumber",
         "titles" : "Catalog Number",
         "datatype" : "string"
       }, {
-        "name" : "sourceRecordNumber",
+        "name" : "targetRecordNumber",
         "titles" : "Record Number",
         "datatype" : "string"
       }, {
@@ -27,11 +27,11 @@
         "titles" : "Recorded By",
         "datatype" : "string"
       }, {
-        "name" : "sourceSexLabel",
+        "name" : "targetSexLabel",
         "titles" : "Sex",
         "datatype" : "string"
       }, {
-        "name" : "sourceLifeStageLabel",
+        "name" : "targetLifeStageLabel",
         "titles" : "Life Stage",
         "datatype" : "string"
       }, {
@@ -75,7 +75,7 @@
         "titles" : "Organism Quantity Type",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonName",
+        "name" : "targetTaxonName",
         "titles" : "Scientific Name",
         "datatype" : "string"
       }, {
@@ -99,43 +99,43 @@
         "titles" : "Higher Classification",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonKingdom",
+        "name" : "targetTaxonKingdom",
         "titles" : "Kingdom",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonPhylum",
+        "name" : "targetTaxonPhylum",
         "titles" : "Phylum",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonClass",
+        "name" : "targetTaxonClass",
         "titles" : "Class",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonOrder",
+        "name" : "targetTaxonOrder",
         "titles" : "Order",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonFamily",
+        "name" : "targetTaxonFamily",
         "titles" : "Family",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonGenus",
+        "name" : "targetTaxonGenus",
         "titles" : "Genus",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonSubgenus",
+        "name" : "targetTaxonSubgenus",
         "titles" : "Subgenus",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonSpecificEpithet",
+        "name" : "targetTaxonSpecificEpithet",
         "titles" : "Specific Epithet",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonInfraspecificEpithet",
+        "name" : "targetTaxonInfraspecificEpithet",
         "titles" : "Infraspecific Epithet",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonRank",
+        "name" : "targetTaxonRank",
         "titles" : "Taxon Rank",
         "datatype" : "string"
       }, {
@@ -143,11 +143,11 @@
         "titles" : "Verbatim Taxon Rank",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonAuthorship",
+        "name" : "targetTaxonAuthorship",
         "titles" : "Scientific Name Authorship",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonCommonName",
+        "name" : "targetTaxonCommonName",
         "titles" : "Vernacular Name",
         "datatype" : "string"
       }, {
@@ -599,7 +599,7 @@
         "titles" : "Flower Color",
         "datatype" : "string"
       }, {
-        "name" : "sourceBodyPartName",
+        "name" : "targetBodyPartName",
         "titles" : "Nectar Collecting Body Part",
         "datatype" : "string"
       }, {
@@ -623,11 +623,11 @@
         "titles" : "Interaction type",
         "datatype" : "string"
       }, {
-        "name" : "targetCatalogNumber",
+        "name" : "sourceCatalogNumber",
         "titles" : "Catalog Number",
         "datatype" : "string"
       }, {
-        "name" : "targetRecordNumber",
+        "name" : "sourceRecordNumber",
         "titles" : "Record Number",
         "datatype" : "string"
       }, {
@@ -635,11 +635,11 @@
         "titles" : "Recorded By",
         "datatype" : "string"
       }, {
-        "name" : "targetSexName",
+        "name" : "sourceSexName",
         "titles" : "Sex",
         "datatype" : "string"
       }, {
-        "name" : "targetLifeStageName",
+        "name" : "sourceLifeStageName",
         "titles" : "Life Stage",
         "datatype" : "string"
       }, {
@@ -683,7 +683,7 @@
         "titles" : "Organism Quantity Type",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonName",
+        "name" : "sourceTaxonName",
         "titles" : "Scientific Name",
         "datatype" : "string"
       }, {
@@ -707,43 +707,43 @@
         "titles" : "Higher Classification",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonKingdom",
+        "name" : "sourceTaxonKingdom",
         "titles" : "Kingdom",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonPhylum",
+        "name" : "sourceTaxonPhylum",
         "titles" : "Phylum",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonClass",
+        "name" : "sourceTaxonClass",
         "titles" : "Class",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonOrder",
+        "name" : "sourceTaxonOrder",
         "titles" : "Order",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonFamily",
+        "name" : "sourceTaxonFamily",
         "titles" : "Family",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonGenus",
+        "name" : "sourceTaxonGenus",
         "titles" : "Genus",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonSubgenus",
+        "name" : "sourceTaxonSubgenus",
         "titles" : "Subgenus",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonSpecificEpithet",
+        "name" : "sourceTaxonSpecificEpithet",
         "titles" : "Specific Epithet",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonInfraspecificEpithet",
+        "name" : "sourceTaxonInfraspecificEpithet",
         "titles" : "Infraspecific Epithet",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonRank",
+        "name" : "sourceTaxonRank",
         "titles" : "Taxon Rank",
         "datatype" : "string"
       }, {
@@ -751,11 +751,11 @@
         "titles" : "Verbatim Taxon Rank",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonAuthorship",
+        "name" : "sourceTaxonAuthorship",
         "titles" : "Scientific Name Authorship",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonCommonName",
+        "name" : "sourceTaxonCommonName",
         "titles" : "Vernacular Name",
         "datatype" : "string"
       }, {
