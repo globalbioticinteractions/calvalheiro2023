@@ -1,1 +1,1409 @@
-["{\n  \"@context\": {\n    \"@vocab\": \"https://eml.ecoinformatics.org/eml-2.2.0/\",\n    \"eml\": \"https://eml.ecoinformatics.org/eml-2.2.0/\",\n    \"xsi\": \"http://www.w3.org/2001/XMLSchema-instance/\",\n    \"xml\": \"http://www.w3.org/XML/1998/namespace\",\n    \"stmml\": \"http://www.xml-cml.org/schema/stmml-1.2/\",\n    \"id\": \"@id\",\n    \"@base\": \"eml://\"\n  },\n  \"@type\": \"EML\",\n  \"dataset\": {\n    \"title\": {\n      \"lang\": \"en\",\n      \"title\": \"WorldFAIR pilot data from: VisitationData_Luisa_Carvalheiro\"\n    },\n    \"abstract\": {\n      \"lang\": \"en\",\n      \"para\": \"Note: This is an example of the data included in a large database of data on plant-flower visitor interactions, where datasets were only inlcuded when quantitative information on visitation rate is available at species level, and inofmration on flower anundance and sampling effort is available for each flowering species present in the study site.\"\n    },\n    \"keywordSet\": {\n      \"keyword\": [\n        {\n          \"keywordType\": \"theme\",\n          \"lang\": \"en\",\n          \"keyword\": \"plant-pollinator interactions\"\n        },\n        {\n          \"keywordType\": \"theme\",\n          \"lang\": \"en\",\n          \"keyword\": \"visitation data\"\n        },\n        {\n          \"keywordType\": \"theme\",\n          \"lang\": \"en\",\n          \"keyword\": \"worldfair\"\n        }\n      ]\n    },\n    \"contact\": {\n      \"references\": \"https://orcid.org/0000-0001-7655-979X\"\n    },\n    \"intellectualRights\": {\n      \"para\": \"\\n            To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the\\n            <ulink url=\\\"http://creativecommons.org/publicdomain/zero/1.0/legalcode\\\">\\n  <citetitle>Public Domain (CC0 1.0)<\\/citetitle>\\n<\\/ulink>\\n              . Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.\\n          \"\n    },\n    \"licensed\": {\n      \"licenseName\": \"CC BY 4.0 DEED Attribution 4.0 International\",\n      \"url\": \"https://creativecommons.org/licenses/by/4.0/\"\n    },\n    \"coverage\": {\n      \"geographicCoverage\": {\n        \"geographicDescription\": \"This resource covers United Kingdom (UK\",\n        \"boundingCoordinates\": {\n          \"westBoundingCoordinate\": \"-7.57\",\n          \"eastBoundingCoordinate\": \"1.68\",\n          \"northBoundingCoordinate\": \"58.63\",\n          \"southBoundingCoordinate\": \"49.95\"\n        }\n      },\n      \"temporalCoverage\": {\n        \"rangeOfDates\": {\n          \"beginDate\": {\n            \"calendarDate\": \"2014-01\"\n          },\n          \"endDate\": {\n            \"calendarDate\": \"2014-12\"\n          }\n        }\n      },\n      \"taxonomicCoverage\": {\n        \"generalTaxonomicCoverage\": \"\\n              Angiosperm plants and Animalia\\n            \",\n        \"taxonomicClassification\": [\n          {\n            \"taxonRankName\": \"kingdom\",\n            \"taxonRankValue\": \"Animalia\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"1\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Hymenoptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"1457\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Diptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"8111\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Hemiptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"809\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Coleoptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"1470\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Lepidoptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"797\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Thysanoptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"1228\"\n            }\n          },\n          {\n            \"taxonRankName\": \"kingdom\",\n            \"taxonRankValue\": \"Plantae\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"6\"\n            }\n          },\n          {\n            \"taxonRankName\": \"order\",\n            \"taxonRankValue\": \"Thysanoptera\",\n            \"taxonId\": {\n              \"provider\": \"https://gbif.org\",\n              \"taxonId\": \"1228\"\n            }\n          }\n        ]\n      }\n    },\n    \"dataTable\": {\n      \"scope\": \"document\",\n      \"entityName\": \"WorldFAIR pilot data from: VisitationData_Luisa_Carvalheiro\",\n      \"physical\": {\n        \"objectName\": \"https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8\",\n        \"dataFormat\": {\n          \"textFormat\": {\n            \"numHeaderLines\": \"6\",\n            \"simpleDelimited\": {\n              \"fieldDelimiter\": \"\\\\t\"\n            }\n          }\n        },\n        \"distribution\": {\n          \"online\": {\n            \"url\": {\n              \"function\": \"download\",\n              \"url\": \"https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&id=1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8&gid=776329546\"\n            }\n          }\n        }\n      },\n      \"attributeList\": {\n        \"attribute\": [\n          {\n            \"id\": \"sourceCatalogNumber\",\n            \"attributeName\": \"Catalog Number\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/catalogNumber\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceRecordNumber\",\n            \"attributeName\": \"Record Number\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/recordNumber\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Recorded By\",\n            \"attributeName\": \"Recorded By\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/recordedBy\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceSexLabel\",\n            \"attributeName\": \"Sex\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/sex\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceLifeStageLabel\",\n            \"attributeName\": \"Life Stage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/lifeStage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Reproductive Condition\",\n            \"attributeName\": \"Reproductive Condition\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/reproductiveCondition\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Establishment Means\",\n            \"attributeName\": \"Establishment Means\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/establishmentMeans\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Occurrence Status\",\n            \"attributeName\": \"Occurrence Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/occurrenceStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Preparations\",\n            \"attributeName\": \"Preparations\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/preparations\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Disposition\",\n            \"attributeName\": \"Disposition\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/disposition\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Associated Media\",\n            \"attributeName\": \"Associated Media\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/associatedMedia\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Associated References\",\n            \"attributeName\": \"Associated References\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/associatedReferences\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Occurrence Remarks\",\n            \"attributeName\": \"Occurrence Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/occurrenceRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Organism Quantity\",\n            \"attributeName\": \"Organism Quantity\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/organismQuantity\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Organism Quantity Type\",\n            \"attributeName\": \"Organism Quantity Type\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/organismQuantityType\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonName\",\n            \"attributeName\": \"Scientific Name\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/scientificName\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Accepted Name Usage\",\n            \"attributeName\": \"Accepted Name Usage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/acceptedNameUsage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Parent Name Usage\",\n            \"attributeName\": \"Parent Name Usage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/parentNameUsage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Original Name Usage\",\n            \"attributeName\": \"Original Name Usage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/originalNameUsage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Name According To\",\n            \"attributeName\": \"Name According To\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/nameAccordingTo\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Higher Classification\",\n            \"attributeName\": \"Higher Classification\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/higherClassification\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonKingdom\",\n            \"attributeName\": \"Kingdom\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/kingdom\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonPhylum\",\n            \"attributeName\": \"Phylum\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/phylum\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonClass\",\n            \"attributeName\": \"Class\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/class\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonOrder\",\n            \"attributeName\": \"Order\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/order\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonFamily\",\n            \"attributeName\": \"Family\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/family\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonGenus\",\n            \"attributeName\": \"Genus\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/genus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonSubgenus\",\n            \"attributeName\": \"Subgenus\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/subgenus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonSpecificEpithet\",\n            \"attributeName\": \"Specific Epithet\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/specificEpithet\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonInfraspecificEpithet\",\n            \"attributeName\": \"Infraspecific Epithet\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/infraspecificEpithet\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonRank\",\n            \"attributeName\": \"Taxon Rank\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/taxonRank\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Taxon Rank\",\n            \"attributeName\": \"Verbatim Taxon Rank\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimTaxonRank\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonAuthorship\",\n            \"attributeName\": \"Scientific Name Authorship\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/scientificNameAuthorship\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceTaxonCommonName\",\n            \"attributeName\": \"Vernacular Name\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/vernacularName\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Nomenclatural Code\",\n            \"attributeName\": \"Nomenclatural Code\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/nomenclaturalCode\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Taxonomic Status\",\n            \"attributeName\": \"Taxonomic Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/taxonomicStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Nomenclatural Status\",\n            \"attributeName\": \"Nomenclatural Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/nomenclaturalStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Taxon Remarks\",\n            \"attributeName\": \"Taxon Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/taxonRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification Qualifier\",\n            \"attributeName\": \"Identification Qualifier\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationQualifier\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Type Status\",\n            \"attributeName\": \"Type Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/typeStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identified By\",\n            \"attributeName\": \"Identified By\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identifiedBy\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Date Identified\",\n            \"attributeName\": \"Date Identified\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/dateIdentified\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification References\",\n            \"attributeName\": \"Identification References\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationReferences\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification Verification Status\",\n            \"attributeName\": \"Identification Verification Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationVerificationStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification Remarks\",\n            \"attributeName\": \"Identification Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Anther Dehiscence Type\",\n            \"attributeName\": \"Anther Dehiscence Type\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/antherDehiscenceType\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Apomitic System Embryo Origin\",\n            \"attributeName\": \"Apomitic System Embryo Origin\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/apomiticSystemEmbryoOrigin\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Apomitic System Fertilization\",\n            \"attributeName\": \"Apomitic System Fertilization\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/apomiticSystemFertilization\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Apomitic System Reproduction\",\n            \"attributeName\": \"Apomitic System Reproduction\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/apomiticSystemReproduction\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Abundance\",\n            \"attributeName\": \"Flower Abundance\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerAbundance\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Floral Attractants\",\n            \"attributeName\": \"Floral Attractants\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/floralAttractants\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Floral Symmetry\",\n            \"attributeName\": \"Floral Symmetry\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/floralSymmetry\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Floral System\",\n            \"attributeName\": \"Floral System\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/floralSystem\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Shape\",\n            \"attributeName\": \"Flower Shape\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerShape\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Orientation\",\n            \"attributeName\": \"Flower Orientation\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerOrientation\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Longevity\",\n            \"attributeName\": \"Flower Longevity\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerLongevity\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Opening Period\",\n            \"attributeName\": \"Flower Opening Period\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerOpeningPeriod\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Opening Type\",\n            \"attributeName\": \"Flower Opening Type\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerOpeningType\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Functional Flower Lifespan In Hours\",\n            \"attributeName\": \"Functional Flower Lifespan In Hours\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/functionalFlowerLifespanInHours\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Plant Habit\",\n            \"attributeName\": \"Plant Habit\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/plantHabit\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Human Use\",\n            \"attributeName\": \"Human Use\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/humanUse\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Mating System\",\n            \"attributeName\": \"Mating System\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/matingSystem\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Ovule Quantity\",\n            \"attributeName\": \"Ovule Quantity\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/ovuleQuantity\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Self Incompatibility Type\",\n            \"attributeName\": \"Self Incompatibility Type\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/selfIncompatibilityType\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Sexual System\",\n            \"attributeName\": \"Sexual System\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/sexualSystem\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Anther Pollen Grains Quantity\",\n            \"attributeName\": \"Anther Pollen Grains Quantity\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/antherPollenGrainsQuantity\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Stigmatic Area In Square Milimiters\",\n            \"attributeName\": \"Stigmatic Area In Square Milimiters\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/stigmaticAreaInSquareMilimiters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Style Length In Milimiters\",\n            \"attributeName\": \"Style Length In Milimiters\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/styleLengthInMilimiters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Number Of Removed Pollen Grains\",\n            \"attributeName\": \"Number Of Removed Pollen Grains\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/numberOfRemovedPollenGrains\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Number Of Conspecific Pollen Grains\",\n            \"attributeName\": \"Number Of Conspecific Pollen Grains\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/numberOfConspecificPollenGrains\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Number Of Heterospecific Pollen Grains\",\n            \"attributeName\": \"Number Of Heterospecific Pollen Grains\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/numberOfHeterospecificPollenGrains\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Number Of Fertilized Ovules\",\n            \"attributeName\": \"Number Of Fertilized Ovules\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/numberOfFertilizedOvules\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Number Of Pollen Tubes\",\n            \"attributeName\": \"Number Of Pollen Tubes\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/numberOfPollenTubes\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Seed Mass In Miligrams\",\n            \"attributeName\": \"Seed Mass In Miligrams\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/seedMassInMiligrams\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Seed Set\",\n            \"attributeName\": \"Seed Set\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/seedSet\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Fruit Mass In Grams\",\n            \"attributeName\": \"Fruit Mass In Grams\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/fruitMassInGrams\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Fruit Set\",\n            \"attributeName\": \"Fruit Set\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/fruitSet\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Number Of Exposed Flowers\",\n            \"attributeName\": \"Number Of Exposed Flowers\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/numberOfExposedFlowers\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Accumlated Nectar Volume In Microliters\",\n            \"attributeName\": \"Accumlated Nectar Volume In Microliters\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/accumlatedNectarVolumeInMicroliters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Accumulated Nectar Concentration\",\n            \"attributeName\": \"Accumulated Nectar Concentration\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/accumulatedNectarConcentration\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Accumulated Nectar Hours\",\n            \"attributeName\": \"Accumulated Nectar Hours\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/accumulatedNectarHours\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Accumulated Nectar Flowers\",\n            \"attributeName\": \"Accumulated Nectar Flowers\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/accumulatedNectarFlowers\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"License\",\n            \"attributeName\": \"License\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/license\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Rights Holder\",\n            \"attributeName\": \"Rights Holder\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/rightsHolder\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Access Rights\",\n            \"attributeName\": \"Access Rights\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/accessRights\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Bibliographic Citation\",\n            \"attributeName\": \"Bibliographic Citation\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/bibliographicCitation\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"References\",\n            \"attributeName\": \"References\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/references\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Institution ID\",\n            \"attributeName\": \"Institution ID\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/institutionId\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Collection ID\",\n            \"attributeName\": \"Collection ID\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/collectionId\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Institution Code\",\n            \"attributeName\": \"Institution Code\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/institutionCode\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Collection Code\",\n            \"attributeName\": \"Collection Code\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/collectionCode\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Owner Institution Code\",\n            \"attributeName\": \"Owner Institution Code\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/ownerInstitutionCode\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Basis of Record\",\n            \"attributeName\": \"Basis of Record\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/basisOfRecord\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Higher Geography\",\n            \"attributeName\": \"Higher Geography\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/higherGeography\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Continent\",\n            \"attributeName\": \"Continent\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/continent\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Water Body\",\n            \"attributeName\": \"Water Body\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/waterBody\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Island Group\",\n            \"attributeName\": \"Island Group\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/islandGroup\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Island\",\n            \"attributeName\": \"Island\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/island\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"localityName\",\n            \"attributeName\": \"Country\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/country\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Country Code\",\n            \"attributeName\": \"Country Code\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/countryCode\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"State Province\",\n            \"attributeName\": \"State Province\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/stateProvince\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"County\",\n            \"attributeName\": \"County\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/county\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Municipality\",\n            \"attributeName\": \"Municipality\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/municipality\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Locality\",\n            \"attributeName\": \"Verbatim Locality\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimLocality\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Minimum Elevation In Meters\",\n            \"attributeName\": \"Minimum Elevation In Meters\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/minimumElevationInMeters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Maximum Elevation In Meters\",\n            \"attributeName\": \"Maximum Elevation In Meters\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/maximumElevationInMeters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Elevation\",\n            \"attributeName\": \"Verbatim Elevation\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimElevation\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Location According To\",\n            \"attributeName\": \"Location According To\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/locationAccordingTo\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Location Remarks\",\n            \"attributeName\": \"Location Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/locationRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"decimalLatitude\",\n            \"attributeName\": \"Decimal Latitude\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/decimalLatitude\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"decimalLongitude\",\n            \"attributeName\": \"Decimal Longitude\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/decimalLongitude\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Geodetic Datum\",\n            \"attributeName\": \"Geodetic Datum\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/geodeticDatum\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Coordinate Uncertainty In Meters\",\n            \"attributeName\": \"Coordinate Uncertainty In Meters\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Coordinate Precision\",\n            \"attributeName\": \"Coordinate Precision\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/coordinatePrecision\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Point Radius Spatial Fit\",\n            \"attributeName\": \"Point Radius Spatial Fit\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Coordinates\",\n            \"attributeName\": \"Verbatim Coordinates\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimCoordinates\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Latitude\",\n            \"attributeName\": \"Verbatim Latitude\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimLatitude\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Longitude\",\n            \"attributeName\": \"Verbatim Longitude\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimLongitude\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Coordinate System\",\n            \"attributeName\": \"Verbatim Coordinate System\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim SRS\",\n            \"attributeName\": \"Verbatim SRS\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimSrs\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Georeferenced By\",\n            \"attributeName\": \"Georeferenced By\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/georeferencedBy\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Georeferenced Date\",\n            \"attributeName\": \"Georeferenced Date\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/georeferencedDate\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Georeference Protocol\",\n            \"attributeName\": \"Georeference Protocol\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/georeferenceProtocol\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Georeference Sources\",\n            \"attributeName\": \"Georeference Sources\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/georeferenceSources\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Georeference Verification Status\",\n            \"attributeName\": \"Georeference Verification Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Georeference Remarks\",\n            \"attributeName\": \"Georeference Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/georeferenceRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Field Number\",\n            \"attributeName\": \"Field Number\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/fieldNumber\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"http://rs.tdwg.org/dwc/terms/eventDate\",\n            \"attributeName\": \"Event Date\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/eventDate\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Event Time\",\n            \"attributeName\": \"Event Time\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/eventTime\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Start Day Of Year\",\n            \"attributeName\": \"Start Day Of Year\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/startDayOfYear\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"End Day Of Year\",\n            \"attributeName\": \"End Day Of Year\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/endDayOfYear\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Year\",\n            \"attributeName\": \"Year\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/year\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Month\",\n            \"attributeName\": \"Month\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/month\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Day\",\n            \"attributeName\": \"Day\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/day\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim EventDate\",\n            \"attributeName\": \"Verbatim EventDate\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimEventdate\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"habitatName\",\n            \"attributeName\": \"Habitat\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/habitat\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Sampling Protocol\",\n            \"attributeName\": \"Sampling Protocol\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/samplingProtocol\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Sample Size Value\",\n            \"attributeName\": \"Sample Size Value\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/sampleSizeValue\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Sample Size Unit\",\n            \"attributeName\": \"Sample Size Unit\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/sampleSizeUnit\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Sampling Effort\",\n            \"attributeName\": \"Sampling Effort\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/samplingEffort\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Field Notes\",\n            \"attributeName\": \"Field Notes\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/fieldNotes\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Event Remarks\",\n            \"attributeName\": \"Event Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/eventRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Visited Flower Sex\",\n            \"attributeName\": \"Visited Flower Sex\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/visitedFlowerSex\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Animal Place Of Contact\",\n            \"attributeName\": \"Animal Place Of Contact\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/animalPlaceOfContact\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Colored Flower Structure\",\n            \"attributeName\": \"Colored Flower Structure\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/coloredFlowerStructure\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Color\",\n            \"attributeName\": \"Flower Color\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerColor\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"sourceBodyPartName\",\n            \"attributeName\": \"Nectar Collecting Body Part\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/nectarCollectingBodyPart\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Nectar Collecting Body Part Length In Milimiters\",\n            \"attributeName\": \"Nectar Collecting Body Part Length In Milimiters\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/nectarCollectingBodyPartLengthInMilimiters\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Visited Flowers Quantity\",\n            \"attributeName\": \"Visited Flowers Quantity\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/visitedFlowersQuantity\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Flower Place Of Contact\",\n            \"attributeName\": \"Flower Place Of Contact\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/flowerPlaceOfContact\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Resource Collected\",\n            \"attributeName\": \"Resource Collected\",\n            \"attributeDefinition\": \"http://rs.rebipp.org.br/ppi/terms/resourceCollected\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"interactionTypeName\",\n            \"attributeName\": \"Interaction type\",\n            \"attributeDefinition\": \"http://purl.obolibrary.org/obo/RO_0002623\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetCatalogNumber\",\n            \"attributeName\": \"Catalog Number\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/catalogNumber\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetRecordNumber\",\n            \"attributeName\": \"Record Number\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/recordNumber\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Recorded By\",\n            \"attributeName\": \"Recorded By\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/recordedBy\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetSexName\",\n            \"attributeName\": \"Sex\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/sex\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetLifeStageName\",\n            \"attributeName\": \"Life Stage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/lifeStage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Behavior\",\n            \"attributeName\": \"Behavior\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/behavior\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Establishment Means\",\n            \"attributeName\": \"Establishment Means\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/establishmentMeans\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Occurrence Status\",\n            \"attributeName\": \"Occurrence Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/occurrenceStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Preparations\",\n            \"attributeName\": \"Preparations\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/preparations\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Disposition\",\n            \"attributeName\": \"Disposition\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/disposition\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Associated Media\",\n            \"attributeName\": \"Associated Media\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/associatedMedia\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Associated References\",\n            \"attributeName\": \"Associated References\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/associatedReferences\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Occurrence Remarks\",\n            \"attributeName\": \"Occurrence Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/occurrenceRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Organism Quantity\",\n            \"attributeName\": \"Organism Quantity\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/organismQuantity\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Organism Quantity Type\",\n            \"attributeName\": \"Organism Quantity Type\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/organismQuantityType\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonName\",\n            \"attributeName\": \"Scientific Name\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/scientificName\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Accepted Name Usage\",\n            \"attributeName\": \"Accepted Name Usage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/acceptedNameUsage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Parent Name Usage\",\n            \"attributeName\": \"Parent Name Usage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/parentNameUsage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Original Name Usage\",\n            \"attributeName\": \"Original Name Usage\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/originalNameUsage\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Name According To\",\n            \"attributeName\": \"Name According To\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/nameAccordingTo\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Higher Classification\",\n            \"attributeName\": \"Higher Classification\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/higherClassification\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonKingdom\",\n            \"attributeName\": \"Kingdom\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/kingdom\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonPhylum\",\n            \"attributeName\": \"Phylum\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/phylum\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonClass\",\n            \"attributeName\": \"Class\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/class\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonOrder\",\n            \"attributeName\": \"Order\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/order\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonFamily\",\n            \"attributeName\": \"Family\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/family\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonGenus\",\n            \"attributeName\": \"Genus\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/genus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonSubgenus\",\n            \"attributeName\": \"Subgenus\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/subgenus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonSpecificEpithet\",\n            \"attributeName\": \"Specific Epithet\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/specificEpithet\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonInfraspecificEpithet\",\n            \"attributeName\": \"Infraspecific Epithet\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/infraspecificEpithet\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonRank\",\n            \"attributeName\": \"Taxon Rank\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/taxonRank\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Verbatim Taxon Rank\",\n            \"attributeName\": \"Verbatim Taxon Rank\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/verbatimTaxonRank\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonAuthorship\",\n            \"attributeName\": \"Scientific Name Authorship\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/scientificNameAuthorship\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"targetTaxonCommonName\",\n            \"attributeName\": \"Vernacular Name\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/vernacularName\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Nomenclatural Code\",\n            \"attributeName\": \"Nomenclatural Code\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/nomenclaturalCode\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Taxonomic Status\",\n            \"attributeName\": \"Taxonomic Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/taxonomicStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Nomenclatural Status\",\n            \"attributeName\": \"Nomenclatural Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/nomenclaturalStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Taxon Remarks\",\n            \"attributeName\": \"Taxon Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/taxonRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification Qualifier\",\n            \"attributeName\": \"Identification Qualifier\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationQualifier\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Type Status\",\n            \"attributeName\": \"Type Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/typeStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identified By\",\n            \"attributeName\": \"Identified By\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identifiedBy\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Date Identified\",\n            \"attributeName\": \"Date Identified\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/dateIdentified\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification References\",\n            \"attributeName\": \"Identification References\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationReferences\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification Verification Status\",\n            \"attributeName\": \"Identification Verification Status\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationVerificationStatus\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Identification Remarks\",\n            \"attributeName\": \"Identification Remarks\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/identificationRemarks\",\n            \"storageType\": \"string\"\n          },\n          {\n            \"id\": \"Caste\",\n            \"attributeName\": \"Caste\",\n            \"attributeDefinition\": \"http://rs.tdwg.org/dwc/terms/caste\",\n            \"storageType\": \"string\"\n          }\n        ]\n      },\n      \"numberOfRecords\": \"685\"\n    },\n    \"alternateIdentifier\": [\n      \"578be9117f150ab570d38cd03f9d35a9a03b59cd29eae93957c38de09d690268\",\n      \"https://github.com/globalbioticinteractions/carvalheiro2023\"\n    ],\n    \"creator\": [\n      {\n        \"id\": \"https://orcid.org/0000-0001-7655-979X\",\n        \"individualName\": {\n          \"givenName\": \"Carvalheiro\",\n          \"surName\": \"Luisa\"\n        },\n        \"organizationName\": {\n          \"lang\": \"en\",\n          \"organizationName\": \"University of Goias\"\n        },\n        \"electronicMailAddress\": \"lgcarvalheiro@gmail.com\",\n        \"userId\": {\n          \"directory\": \"https://orcid.org\",\n          \"userId\": \"https://orcid.org/0000-0001-7655-979X\"\n        }\n      },\n      {\n        \"id\": \"https://orcid.org/0000-0002-8675-7068\",\n        \"individualName\": {\n          \"surName\": \"José\",\n          \"givenName\": [\n            \"Salim\",\n            \"A.\"\n          ]\n        },\n        \"organizationName\": {\n          \"lang\": \"en\",\n          \"organizationName\": \"University of Sao Paulo\"\n        },\n        \"electronicMailAddress\": \"joseasalim@usp.br\",\n        \"userId\": {\n          \"directory\": \"https://orcid.org\",\n          \"userId\": \"https://orcid.org/0000-0002-8675-7068\"\n        }\n      }\n    ]\n  },\n  \"packageId\": \"hash:sha256://578be9117f150ab570d38cd03f9d35a9a03b59cd29eae93957c38de09d690268\",\n  \"schemaLocation\": \"https://eml.ecoinformatics.org/eml-2.2.0 xsd/eml.xsd\",\n  \"system\": \"https://linker.bio\"\n}"]
+{
+  "@context": {
+    "@vocab": "https://eml.ecoinformatics.org/eml-2.2.0/",
+    "eml": "https://eml.ecoinformatics.org/eml-2.2.0/",
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance/",
+    "xml": "http://www.w3.org/XML/1998/namespace",
+    "stmml": "http://www.xml-cml.org/schema/stmml-1.2/",
+    "id": "@id",
+    "@base": "eml://"
+  },
+  "@type": "EML",
+  "dataset": {
+    "title": {
+      "lang": "en",
+      "title": "WorldFAIR pilot data from: VisitationData_Luisa_Carvalheiro"
+    },
+    "abstract": {
+      "lang": "en",
+      "para": "Note: This is an example of the data included in a large database of data on plant-flower visitor interactions, where datasets were only inlcuded when quantitative information on visitation rate is available at species level, and inofmration on flower anundance and sampling effort is available for each flowering species present in the study site."
+    },
+    "keywordSet": {
+      "keyword": [
+        {
+          "keywordType": "theme",
+          "lang": "en",
+          "keyword": "plant-pollinator interactions"
+        },
+        {
+          "keywordType": "theme",
+          "lang": "en",
+          "keyword": "visitation data"
+        },
+        {
+          "keywordType": "theme",
+          "lang": "en",
+          "keyword": "worldfair"
+        }
+      ]
+    },
+    "contact": {
+      "references": "https://orcid.org/0000-0001-7655-979X"
+    },
+    "intellectualRights": {
+      "para": "\n            To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the\n            <ulink url=\"http://creativecommons.org/publicdomain/zero/1.0/legalcode\">\n  <citetitle>Public Domain (CC0 1.0)<\/citetitle>\n<\/ulink>\n              . Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.\n          "
+    },
+    "licensed": {
+      "licenseName": "CC BY 4.0 DEED Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "coverage": {
+      "geographicCoverage": {
+        "geographicDescription": "This resource covers United Kingdom (UK",
+        "boundingCoordinates": {
+          "westBoundingCoordinate": "-7.57",
+          "eastBoundingCoordinate": "1.68",
+          "northBoundingCoordinate": "58.63",
+          "southBoundingCoordinate": "49.95"
+        }
+      },
+      "temporalCoverage": {
+        "rangeOfDates": {
+          "beginDate": {
+            "calendarDate": "2014-01"
+          },
+          "endDate": {
+            "calendarDate": "2014-12"
+          }
+        }
+      },
+      "taxonomicCoverage": {
+        "generalTaxonomicCoverage": "\n              Angiosperm plants and Animalia\n            ",
+        "taxonomicClassification": [
+          {
+            "taxonRankName": "kingdom",
+            "taxonRankValue": "Animalia",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "1"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Hymenoptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "1457"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Diptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "8111"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Hemiptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "809"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Coleoptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "1470"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Lepidoptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "797"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Thysanoptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "1228"
+            }
+          },
+          {
+            "taxonRankName": "kingdom",
+            "taxonRankValue": "Plantae",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "6"
+            }
+          },
+          {
+            "taxonRankName": "order",
+            "taxonRankValue": "Thysanoptera",
+            "taxonId": {
+              "provider": "https://gbif.org",
+              "taxonId": "1228"
+            }
+          }
+        ]
+      }
+    },
+    "dataTable": {
+      "scope": "document",
+      "entityName": "WorldFAIR pilot data from: VisitationData_Luisa_Carvalheiro",
+      "physical": {
+        "objectName": "https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8",
+        "dataFormat": {
+          "textFormat": {
+            "numHeaderLines": "6",
+            "simpleDelimited": {
+              "fieldDelimiter": "\\t"
+            }
+          }
+        },
+        "distribution": {
+          "online": {
+            "url": {
+              "function": "download",
+              "url": "https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&id=1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8&gid=776329546"
+            }
+          }
+        }
+      },
+      "attributeList": {
+        "attribute": [
+          {
+            "id": "sourceCatalogNumber",
+            "attributeName": "Catalog Number",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/catalogNumber",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceRecordNumber",
+            "attributeName": "Record Number",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/recordNumber",
+            "storageType": "string"
+          },
+          {
+            "id": "Recorded By",
+            "attributeName": "Recorded By",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/recordedBy",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceSexLabel",
+            "attributeName": "Sex",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/sex",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceLifeStageLabel",
+            "attributeName": "Life Stage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/lifeStage",
+            "storageType": "string"
+          },
+          {
+            "id": "Reproductive Condition",
+            "attributeName": "Reproductive Condition",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/reproductiveCondition",
+            "storageType": "string"
+          },
+          {
+            "id": "Establishment Means",
+            "attributeName": "Establishment Means",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/establishmentMeans",
+            "storageType": "string"
+          },
+          {
+            "id": "Occurrence Status",
+            "attributeName": "Occurrence Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/occurrenceStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Preparations",
+            "attributeName": "Preparations",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/preparations",
+            "storageType": "string"
+          },
+          {
+            "id": "Disposition",
+            "attributeName": "Disposition",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/disposition",
+            "storageType": "string"
+          },
+          {
+            "id": "Associated Media",
+            "attributeName": "Associated Media",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/associatedMedia",
+            "storageType": "string"
+          },
+          {
+            "id": "Associated References",
+            "attributeName": "Associated References",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/associatedReferences",
+            "storageType": "string"
+          },
+          {
+            "id": "Occurrence Remarks",
+            "attributeName": "Occurrence Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/occurrenceRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Organism Quantity",
+            "attributeName": "Organism Quantity",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/organismQuantity",
+            "storageType": "string"
+          },
+          {
+            "id": "Organism Quantity Type",
+            "attributeName": "Organism Quantity Type",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/organismQuantityType",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonName",
+            "attributeName": "Scientific Name",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/scientificName",
+            "storageType": "string"
+          },
+          {
+            "id": "Accepted Name Usage",
+            "attributeName": "Accepted Name Usage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/acceptedNameUsage",
+            "storageType": "string"
+          },
+          {
+            "id": "Parent Name Usage",
+            "attributeName": "Parent Name Usage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/parentNameUsage",
+            "storageType": "string"
+          },
+          {
+            "id": "Original Name Usage",
+            "attributeName": "Original Name Usage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/originalNameUsage",
+            "storageType": "string"
+          },
+          {
+            "id": "Name According To",
+            "attributeName": "Name According To",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/nameAccordingTo",
+            "storageType": "string"
+          },
+          {
+            "id": "Higher Classification",
+            "attributeName": "Higher Classification",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/higherClassification",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonKingdom",
+            "attributeName": "Kingdom",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/kingdom",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonPhylum",
+            "attributeName": "Phylum",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/phylum",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonClass",
+            "attributeName": "Class",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/class",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonOrder",
+            "attributeName": "Order",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/order",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonFamily",
+            "attributeName": "Family",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/family",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonGenus",
+            "attributeName": "Genus",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/genus",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonSubgenus",
+            "attributeName": "Subgenus",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/subgenus",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonSpecificEpithet",
+            "attributeName": "Specific Epithet",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/specificEpithet",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonInfraspecificEpithet",
+            "attributeName": "Infraspecific Epithet",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/infraspecificEpithet",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonRank",
+            "attributeName": "Taxon Rank",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/taxonRank",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Taxon Rank",
+            "attributeName": "Verbatim Taxon Rank",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonAuthorship",
+            "attributeName": "Scientific Name Authorship",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/scientificNameAuthorship",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceTaxonCommonName",
+            "attributeName": "Vernacular Name",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/vernacularName",
+            "storageType": "string"
+          },
+          {
+            "id": "Nomenclatural Code",
+            "attributeName": "Nomenclatural Code",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/nomenclaturalCode",
+            "storageType": "string"
+          },
+          {
+            "id": "Taxonomic Status",
+            "attributeName": "Taxonomic Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/taxonomicStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Nomenclatural Status",
+            "attributeName": "Nomenclatural Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/nomenclaturalStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Taxon Remarks",
+            "attributeName": "Taxon Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/taxonRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification Qualifier",
+            "attributeName": "Identification Qualifier",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationQualifier",
+            "storageType": "string"
+          },
+          {
+            "id": "Type Status",
+            "attributeName": "Type Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/typeStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Identified By",
+            "attributeName": "Identified By",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identifiedBy",
+            "storageType": "string"
+          },
+          {
+            "id": "Date Identified",
+            "attributeName": "Date Identified",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/dateIdentified",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification References",
+            "attributeName": "Identification References",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationReferences",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification Verification Status",
+            "attributeName": "Identification Verification Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationVerificationStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification Remarks",
+            "attributeName": "Identification Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Anther Dehiscence Type",
+            "attributeName": "Anther Dehiscence Type",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/antherDehiscenceType",
+            "storageType": "string"
+          },
+          {
+            "id": "Apomitic System Embryo Origin",
+            "attributeName": "Apomitic System Embryo Origin",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/apomiticSystemEmbryoOrigin",
+            "storageType": "string"
+          },
+          {
+            "id": "Apomitic System Fertilization",
+            "attributeName": "Apomitic System Fertilization",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/apomiticSystemFertilization",
+            "storageType": "string"
+          },
+          {
+            "id": "Apomitic System Reproduction",
+            "attributeName": "Apomitic System Reproduction",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/apomiticSystemReproduction",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Abundance",
+            "attributeName": "Flower Abundance",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerAbundance",
+            "storageType": "string"
+          },
+          {
+            "id": "Floral Attractants",
+            "attributeName": "Floral Attractants",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/floralAttractants",
+            "storageType": "string"
+          },
+          {
+            "id": "Floral Symmetry",
+            "attributeName": "Floral Symmetry",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/floralSymmetry",
+            "storageType": "string"
+          },
+          {
+            "id": "Floral System",
+            "attributeName": "Floral System",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/floralSystem",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Shape",
+            "attributeName": "Flower Shape",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerShape",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Orientation",
+            "attributeName": "Flower Orientation",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerOrientation",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Longevity",
+            "attributeName": "Flower Longevity",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerLongevity",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Opening Period",
+            "attributeName": "Flower Opening Period",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerOpeningPeriod",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Opening Type",
+            "attributeName": "Flower Opening Type",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerOpeningType",
+            "storageType": "string"
+          },
+          {
+            "id": "Functional Flower Lifespan In Hours",
+            "attributeName": "Functional Flower Lifespan In Hours",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/functionalFlowerLifespanInHours",
+            "storageType": "string"
+          },
+          {
+            "id": "Plant Habit",
+            "attributeName": "Plant Habit",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/plantHabit",
+            "storageType": "string"
+          },
+          {
+            "id": "Human Use",
+            "attributeName": "Human Use",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/humanUse",
+            "storageType": "string"
+          },
+          {
+            "id": "Mating System",
+            "attributeName": "Mating System",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/matingSystem",
+            "storageType": "string"
+          },
+          {
+            "id": "Ovule Quantity",
+            "attributeName": "Ovule Quantity",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/ovuleQuantity",
+            "storageType": "string"
+          },
+          {
+            "id": "Self Incompatibility Type",
+            "attributeName": "Self Incompatibility Type",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/selfIncompatibilityType",
+            "storageType": "string"
+          },
+          {
+            "id": "Sexual System",
+            "attributeName": "Sexual System",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/sexualSystem",
+            "storageType": "string"
+          },
+          {
+            "id": "Anther Pollen Grains Quantity",
+            "attributeName": "Anther Pollen Grains Quantity",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/antherPollenGrainsQuantity",
+            "storageType": "string"
+          },
+          {
+            "id": "Stigmatic Area In Square Milimiters",
+            "attributeName": "Stigmatic Area In Square Milimiters",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/stigmaticAreaInSquareMilimiters",
+            "storageType": "string"
+          },
+          {
+            "id": "Style Length In Milimiters",
+            "attributeName": "Style Length In Milimiters",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/styleLengthInMilimiters",
+            "storageType": "string"
+          },
+          {
+            "id": "Number Of Removed Pollen Grains",
+            "attributeName": "Number Of Removed Pollen Grains",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/numberOfRemovedPollenGrains",
+            "storageType": "string"
+          },
+          {
+            "id": "Number Of Conspecific Pollen Grains",
+            "attributeName": "Number Of Conspecific Pollen Grains",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/numberOfConspecificPollenGrains",
+            "storageType": "string"
+          },
+          {
+            "id": "Number Of Heterospecific Pollen Grains",
+            "attributeName": "Number Of Heterospecific Pollen Grains",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/numberOfHeterospecificPollenGrains",
+            "storageType": "string"
+          },
+          {
+            "id": "Number Of Fertilized Ovules",
+            "attributeName": "Number Of Fertilized Ovules",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/numberOfFertilizedOvules",
+            "storageType": "string"
+          },
+          {
+            "id": "Number Of Pollen Tubes",
+            "attributeName": "Number Of Pollen Tubes",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/numberOfPollenTubes",
+            "storageType": "string"
+          },
+          {
+            "id": "Seed Mass In Miligrams",
+            "attributeName": "Seed Mass In Miligrams",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/seedMassInMiligrams",
+            "storageType": "string"
+          },
+          {
+            "id": "Seed Set",
+            "attributeName": "Seed Set",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/seedSet",
+            "storageType": "string"
+          },
+          {
+            "id": "Fruit Mass In Grams",
+            "attributeName": "Fruit Mass In Grams",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/fruitMassInGrams",
+            "storageType": "string"
+          },
+          {
+            "id": "Fruit Set",
+            "attributeName": "Fruit Set",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/fruitSet",
+            "storageType": "string"
+          },
+          {
+            "id": "Number Of Exposed Flowers",
+            "attributeName": "Number Of Exposed Flowers",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/numberOfExposedFlowers",
+            "storageType": "string"
+          },
+          {
+            "id": "Accumlated Nectar Volume In Microliters",
+            "attributeName": "Accumlated Nectar Volume In Microliters",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/accumlatedNectarVolumeInMicroliters",
+            "storageType": "string"
+          },
+          {
+            "id": "Accumulated Nectar Concentration",
+            "attributeName": "Accumulated Nectar Concentration",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/accumulatedNectarConcentration",
+            "storageType": "string"
+          },
+          {
+            "id": "Accumulated Nectar Hours",
+            "attributeName": "Accumulated Nectar Hours",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/accumulatedNectarHours",
+            "storageType": "string"
+          },
+          {
+            "id": "Accumulated Nectar Flowers",
+            "attributeName": "Accumulated Nectar Flowers",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/accumulatedNectarFlowers",
+            "storageType": "string"
+          },
+          {
+            "id": "License",
+            "attributeName": "License",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/license",
+            "storageType": "string"
+          },
+          {
+            "id": "Rights Holder",
+            "attributeName": "Rights Holder",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/rightsHolder",
+            "storageType": "string"
+          },
+          {
+            "id": "Access Rights",
+            "attributeName": "Access Rights",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/accessRights",
+            "storageType": "string"
+          },
+          {
+            "id": "Bibliographic Citation",
+            "attributeName": "Bibliographic Citation",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/bibliographicCitation",
+            "storageType": "string"
+          },
+          {
+            "id": "References",
+            "attributeName": "References",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/references",
+            "storageType": "string"
+          },
+          {
+            "id": "Institution ID",
+            "attributeName": "Institution ID",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/institutionId",
+            "storageType": "string"
+          },
+          {
+            "id": "Collection ID",
+            "attributeName": "Collection ID",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/collectionId",
+            "storageType": "string"
+          },
+          {
+            "id": "Institution Code",
+            "attributeName": "Institution Code",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/institutionCode",
+            "storageType": "string"
+          },
+          {
+            "id": "Collection Code",
+            "attributeName": "Collection Code",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/collectionCode",
+            "storageType": "string"
+          },
+          {
+            "id": "Owner Institution Code",
+            "attributeName": "Owner Institution Code",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/ownerInstitutionCode",
+            "storageType": "string"
+          },
+          {
+            "id": "Basis of Record",
+            "attributeName": "Basis of Record",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/basisOfRecord",
+            "storageType": "string"
+          },
+          {
+            "id": "Higher Geography",
+            "attributeName": "Higher Geography",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/higherGeography",
+            "storageType": "string"
+          },
+          {
+            "id": "Continent",
+            "attributeName": "Continent",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/continent",
+            "storageType": "string"
+          },
+          {
+            "id": "Water Body",
+            "attributeName": "Water Body",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/waterBody",
+            "storageType": "string"
+          },
+          {
+            "id": "Island Group",
+            "attributeName": "Island Group",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/islandGroup",
+            "storageType": "string"
+          },
+          {
+            "id": "Island",
+            "attributeName": "Island",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/island",
+            "storageType": "string"
+          },
+          {
+            "id": "localityName",
+            "attributeName": "Country",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/country",
+            "storageType": "string"
+          },
+          {
+            "id": "Country Code",
+            "attributeName": "Country Code",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/countryCode",
+            "storageType": "string"
+          },
+          {
+            "id": "State Province",
+            "attributeName": "State Province",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/stateProvince",
+            "storageType": "string"
+          },
+          {
+            "id": "County",
+            "attributeName": "County",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/county",
+            "storageType": "string"
+          },
+          {
+            "id": "Municipality",
+            "attributeName": "Municipality",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/municipality",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Locality",
+            "attributeName": "Verbatim Locality",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimLocality",
+            "storageType": "string"
+          },
+          {
+            "id": "Minimum Elevation In Meters",
+            "attributeName": "Minimum Elevation In Meters",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/minimumElevationInMeters",
+            "storageType": "string"
+          },
+          {
+            "id": "Maximum Elevation In Meters",
+            "attributeName": "Maximum Elevation In Meters",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/maximumElevationInMeters",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Elevation",
+            "attributeName": "Verbatim Elevation",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimElevation",
+            "storageType": "string"
+          },
+          {
+            "id": "Location According To",
+            "attributeName": "Location According To",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/locationAccordingTo",
+            "storageType": "string"
+          },
+          {
+            "id": "Location Remarks",
+            "attributeName": "Location Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/locationRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "decimalLatitude",
+            "attributeName": "Decimal Latitude",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/decimalLatitude",
+            "storageType": "string"
+          },
+          {
+            "id": "decimalLongitude",
+            "attributeName": "Decimal Longitude",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/decimalLongitude",
+            "storageType": "string"
+          },
+          {
+            "id": "Geodetic Datum",
+            "attributeName": "Geodetic Datum",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/geodeticDatum",
+            "storageType": "string"
+          },
+          {
+            "id": "Coordinate Uncertainty In Meters",
+            "attributeName": "Coordinate Uncertainty In Meters",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters",
+            "storageType": "string"
+          },
+          {
+            "id": "Coordinate Precision",
+            "attributeName": "Coordinate Precision",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/coordinatePrecision",
+            "storageType": "string"
+          },
+          {
+            "id": "Point Radius Spatial Fit",
+            "attributeName": "Point Radius Spatial Fit",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Coordinates",
+            "attributeName": "Verbatim Coordinates",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimCoordinates",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Latitude",
+            "attributeName": "Verbatim Latitude",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimLatitude",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Longitude",
+            "attributeName": "Verbatim Longitude",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimLongitude",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Coordinate System",
+            "attributeName": "Verbatim Coordinate System",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim SRS",
+            "attributeName": "Verbatim SRS",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimSrs",
+            "storageType": "string"
+          },
+          {
+            "id": "Georeferenced By",
+            "attributeName": "Georeferenced By",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/georeferencedBy",
+            "storageType": "string"
+          },
+          {
+            "id": "Georeferenced Date",
+            "attributeName": "Georeferenced Date",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/georeferencedDate",
+            "storageType": "string"
+          },
+          {
+            "id": "Georeference Protocol",
+            "attributeName": "Georeference Protocol",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/georeferenceProtocol",
+            "storageType": "string"
+          },
+          {
+            "id": "Georeference Sources",
+            "attributeName": "Georeference Sources",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/georeferenceSources",
+            "storageType": "string"
+          },
+          {
+            "id": "Georeference Verification Status",
+            "attributeName": "Georeference Verification Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Georeference Remarks",
+            "attributeName": "Georeference Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/georeferenceRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Field Number",
+            "attributeName": "Field Number",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/fieldNumber",
+            "storageType": "string"
+          },
+          {
+            "id": "http://rs.tdwg.org/dwc/terms/eventDate",
+            "attributeName": "Event Date",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/eventDate",
+            "storageType": "string"
+          },
+          {
+            "id": "Event Time",
+            "attributeName": "Event Time",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/eventTime",
+            "storageType": "string"
+          },
+          {
+            "id": "Start Day Of Year",
+            "attributeName": "Start Day Of Year",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/startDayOfYear",
+            "storageType": "string"
+          },
+          {
+            "id": "End Day Of Year",
+            "attributeName": "End Day Of Year",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/endDayOfYear",
+            "storageType": "string"
+          },
+          {
+            "id": "Year",
+            "attributeName": "Year",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/year",
+            "storageType": "string"
+          },
+          {
+            "id": "Month",
+            "attributeName": "Month",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/month",
+            "storageType": "string"
+          },
+          {
+            "id": "Day",
+            "attributeName": "Day",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/day",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim EventDate",
+            "attributeName": "Verbatim EventDate",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimEventdate",
+            "storageType": "string"
+          },
+          {
+            "id": "habitatName",
+            "attributeName": "Habitat",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/habitat",
+            "storageType": "string"
+          },
+          {
+            "id": "Sampling Protocol",
+            "attributeName": "Sampling Protocol",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/samplingProtocol",
+            "storageType": "string"
+          },
+          {
+            "id": "Sample Size Value",
+            "attributeName": "Sample Size Value",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/sampleSizeValue",
+            "storageType": "string"
+          },
+          {
+            "id": "Sample Size Unit",
+            "attributeName": "Sample Size Unit",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/sampleSizeUnit",
+            "storageType": "string"
+          },
+          {
+            "id": "Sampling Effort",
+            "attributeName": "Sampling Effort",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/samplingEffort",
+            "storageType": "string"
+          },
+          {
+            "id": "Field Notes",
+            "attributeName": "Field Notes",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/fieldNotes",
+            "storageType": "string"
+          },
+          {
+            "id": "Event Remarks",
+            "attributeName": "Event Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/eventRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Visited Flower Sex",
+            "attributeName": "Visited Flower Sex",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/visitedFlowerSex",
+            "storageType": "string"
+          },
+          {
+            "id": "Animal Place Of Contact",
+            "attributeName": "Animal Place Of Contact",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/animalPlaceOfContact",
+            "storageType": "string"
+          },
+          {
+            "id": "Colored Flower Structure",
+            "attributeName": "Colored Flower Structure",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/coloredFlowerStructure",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Color",
+            "attributeName": "Flower Color",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerColor",
+            "storageType": "string"
+          },
+          {
+            "id": "sourceBodyPartName",
+            "attributeName": "Nectar Collecting Body Part",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/nectarCollectingBodyPart",
+            "storageType": "string"
+          },
+          {
+            "id": "Nectar Collecting Body Part Length In Milimiters",
+            "attributeName": "Nectar Collecting Body Part Length In Milimiters",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/nectarCollectingBodyPartLengthInMilimiters",
+            "storageType": "string"
+          },
+          {
+            "id": "Visited Flowers Quantity",
+            "attributeName": "Visited Flowers Quantity",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/visitedFlowersQuantity",
+            "storageType": "string"
+          },
+          {
+            "id": "Flower Place Of Contact",
+            "attributeName": "Flower Place Of Contact",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/flowerPlaceOfContact",
+            "storageType": "string"
+          },
+          {
+            "id": "Resource Collected",
+            "attributeName": "Resource Collected",
+            "attributeDefinition": "http://rs.rebipp.org.br/ppi/terms/resourceCollected",
+            "storageType": "string"
+          },
+          {
+            "id": "interactionTypeName",
+            "attributeName": "Interaction type",
+            "attributeDefinition": "http://purl.obolibrary.org/obo/RO_0002623",
+            "storageType": "string"
+          },
+          {
+            "id": "targetCatalogNumber",
+            "attributeName": "Catalog Number",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/catalogNumber",
+            "storageType": "string"
+          },
+          {
+            "id": "targetRecordNumber",
+            "attributeName": "Record Number",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/recordNumber",
+            "storageType": "string"
+          },
+          {
+            "id": "Recorded By",
+            "attributeName": "Recorded By",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/recordedBy",
+            "storageType": "string"
+          },
+          {
+            "id": "targetSexName",
+            "attributeName": "Sex",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/sex",
+            "storageType": "string"
+          },
+          {
+            "id": "targetLifeStageName",
+            "attributeName": "Life Stage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/lifeStage",
+            "storageType": "string"
+          },
+          {
+            "id": "Behavior",
+            "attributeName": "Behavior",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/behavior",
+            "storageType": "string"
+          },
+          {
+            "id": "Establishment Means",
+            "attributeName": "Establishment Means",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/establishmentMeans",
+            "storageType": "string"
+          },
+          {
+            "id": "Occurrence Status",
+            "attributeName": "Occurrence Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/occurrenceStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Preparations",
+            "attributeName": "Preparations",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/preparations",
+            "storageType": "string"
+          },
+          {
+            "id": "Disposition",
+            "attributeName": "Disposition",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/disposition",
+            "storageType": "string"
+          },
+          {
+            "id": "Associated Media",
+            "attributeName": "Associated Media",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/associatedMedia",
+            "storageType": "string"
+          },
+          {
+            "id": "Associated References",
+            "attributeName": "Associated References",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/associatedReferences",
+            "storageType": "string"
+          },
+          {
+            "id": "Occurrence Remarks",
+            "attributeName": "Occurrence Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/occurrenceRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Organism Quantity",
+            "attributeName": "Organism Quantity",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/organismQuantity",
+            "storageType": "string"
+          },
+          {
+            "id": "Organism Quantity Type",
+            "attributeName": "Organism Quantity Type",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/organismQuantityType",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonName",
+            "attributeName": "Scientific Name",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/scientificName",
+            "storageType": "string"
+          },
+          {
+            "id": "Accepted Name Usage",
+            "attributeName": "Accepted Name Usage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/acceptedNameUsage",
+            "storageType": "string"
+          },
+          {
+            "id": "Parent Name Usage",
+            "attributeName": "Parent Name Usage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/parentNameUsage",
+            "storageType": "string"
+          },
+          {
+            "id": "Original Name Usage",
+            "attributeName": "Original Name Usage",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/originalNameUsage",
+            "storageType": "string"
+          },
+          {
+            "id": "Name According To",
+            "attributeName": "Name According To",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/nameAccordingTo",
+            "storageType": "string"
+          },
+          {
+            "id": "Higher Classification",
+            "attributeName": "Higher Classification",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/higherClassification",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonKingdom",
+            "attributeName": "Kingdom",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/kingdom",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonPhylum",
+            "attributeName": "Phylum",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/phylum",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonClass",
+            "attributeName": "Class",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/class",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonOrder",
+            "attributeName": "Order",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/order",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonFamily",
+            "attributeName": "Family",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/family",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonGenus",
+            "attributeName": "Genus",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/genus",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonSubgenus",
+            "attributeName": "Subgenus",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/subgenus",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonSpecificEpithet",
+            "attributeName": "Specific Epithet",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/specificEpithet",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonInfraspecificEpithet",
+            "attributeName": "Infraspecific Epithet",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/infraspecificEpithet",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonRank",
+            "attributeName": "Taxon Rank",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/taxonRank",
+            "storageType": "string"
+          },
+          {
+            "id": "Verbatim Taxon Rank",
+            "attributeName": "Verbatim Taxon Rank",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonAuthorship",
+            "attributeName": "Scientific Name Authorship",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/scientificNameAuthorship",
+            "storageType": "string"
+          },
+          {
+            "id": "targetTaxonCommonName",
+            "attributeName": "Vernacular Name",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/vernacularName",
+            "storageType": "string"
+          },
+          {
+            "id": "Nomenclatural Code",
+            "attributeName": "Nomenclatural Code",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/nomenclaturalCode",
+            "storageType": "string"
+          },
+          {
+            "id": "Taxonomic Status",
+            "attributeName": "Taxonomic Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/taxonomicStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Nomenclatural Status",
+            "attributeName": "Nomenclatural Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/nomenclaturalStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Taxon Remarks",
+            "attributeName": "Taxon Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/taxonRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification Qualifier",
+            "attributeName": "Identification Qualifier",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationQualifier",
+            "storageType": "string"
+          },
+          {
+            "id": "Type Status",
+            "attributeName": "Type Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/typeStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Identified By",
+            "attributeName": "Identified By",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identifiedBy",
+            "storageType": "string"
+          },
+          {
+            "id": "Date Identified",
+            "attributeName": "Date Identified",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/dateIdentified",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification References",
+            "attributeName": "Identification References",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationReferences",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification Verification Status",
+            "attributeName": "Identification Verification Status",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationVerificationStatus",
+            "storageType": "string"
+          },
+          {
+            "id": "Identification Remarks",
+            "attributeName": "Identification Remarks",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/identificationRemarks",
+            "storageType": "string"
+          },
+          {
+            "id": "Caste",
+            "attributeName": "Caste",
+            "attributeDefinition": "http://rs.tdwg.org/dwc/terms/caste",
+            "storageType": "string"
+          }
+        ]
+      },
+      "numberOfRecords": "685"
+    },
+    "alternateIdentifier": [
+      "578be9117f150ab570d38cd03f9d35a9a03b59cd29eae93957c38de09d690268",
+      "https://github.com/globalbioticinteractions/carvalheiro2023"
+    ],
+    "creator": [
+      {
+        "id": "https://orcid.org/0000-0001-7655-979X",
+        "individualName": {
+          "givenName": "Carvalheiro",
+          "surName": "Luisa"
+        },
+        "organizationName": {
+          "lang": "en",
+          "organizationName": "University of Goias"
+        },
+        "electronicMailAddress": "lgcarvalheiro@gmail.com",
+        "userId": {
+          "directory": "https://orcid.org",
+          "userId": "https://orcid.org/0000-0001-7655-979X"
+        }
+      },
+      {
+        "id": "https://orcid.org/0000-0002-8675-7068",
+        "individualName": {
+          "surName": "José",
+          "givenName": [
+            "Salim",
+            "A."
+          ]
+        },
+        "organizationName": {
+          "lang": "en",
+          "organizationName": "University of Sao Paulo"
+        },
+        "electronicMailAddress": "joseasalim@usp.br",
+        "userId": {
+          "directory": "https://orcid.org",
+          "userId": "https://orcid.org/0000-0002-8675-7068"
+        }
+      }
+    ]
+  },
+  "packageId": "hash:sha256://578be9117f150ab570d38cd03f9d35a9a03b59cd29eae93957c38de09d690268",
+  "schemaLocation": "https://eml.ecoinformatics.org/eml-2.2.0 xsd/eml.xsd",
+  "system": "https://linker.bio"
+}
