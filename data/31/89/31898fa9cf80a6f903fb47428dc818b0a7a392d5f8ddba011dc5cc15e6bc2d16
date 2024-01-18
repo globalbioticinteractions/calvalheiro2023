@@ -1,0 +1,42 @@
+<https://preston.guoda.bio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#SoftwareAgent> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<https://preston.guoda.bio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<https://preston.guoda.bio> <http://purl.org/dc/terms/description> "Preston is a software program that finds, archives and provides access to biodiversity datasets."@en <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> <http://purl.org/dc/terms/description> "An event that (re-) processes existing biodiversity datasets graphs and their provenance."@en <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> <http://www.w3.org/ns/prov#startedAtTime> "2024-01-18T19:13:20.962Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> <http://www.w3.org/ns/prov#wasStartedBy> <https://preston.guoda.bio> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<https://doi.org/10.5281/zenodo.1410543> <http://www.w3.org/ns/prov#usedBy> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<https://doi.org/10.5281/zenodo.1410543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Software> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<https://doi.org/10.5281/zenodo.1410543> <http://purl.org/dc/terms/bibliographicCitation> "Jorrit Poelen, Icaro Alzuru, & Michael Elliott. 2021. Preston: a biodiversity dataset tracker (Version 0.7.16-SNAPSHOT) [Software]. Zenodo. https://doi.org/10.5281/zenodo.1410543"@en <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<urn:uuid:0659a54f-b713-4f86-a917-5be166a14110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<urn:uuid:0659a54f-b713-4f86-a917-5be166a14110> <http://purl.org/dc/terms/description> "A biodiversity dataset graph archive."@en <urn:uuid:f97def0f-c114-465a-bf31-9f934c2531a0> .
+<https://raw.githubusercontent.com/globalbioticinteractions/carvalheiro2023/main/VisitationData_Luisa_Carvalheiro.xlsx> <http://purl.org/pav/hasVersion> <hash://md5/a2b31050b50d9e213ed62873f17c6e8e> .
+<hash://md5/a2b31050b50d9e213ed62873f17c6e8e> <http://purl.org/dc/elements/1.1/format> "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" .
+<hash://md5/a2b31050b50d9e213ed62873f17c6e8e> <https://www.w3.org/2002/07/owl#sameAs> <hash://sha256/0fde4fcb4090b75a84b6057f4bbbda6c0053ce3278ef4efc6a53a8241032534b> .
+<https://orcid.org/0000-0001-7655-979X> <http://xmlns.com/foaf/0.1/name> "Luísa G. Carvalheiro" .
+<hash://md5/a2b31050b50d9e213ed62873f17c6e8e> <http://purl.org/pav/authoredBy> <https://orcid.org/0000-0001-7655-979X> .
+<https://doi.org/10.1111/j.1365-2664.2008.01518.x> <http://purl.org/pav/authoredBy> <https://orcid.org/0000-0001-7655-979X> .
+<https://doi.org/10.1111/j.1365-2664.2008.01518.x> <prov:wasInfluencedBy> <hash://md5/a2b31050b50d9e213ed62873f17c6e8e> .
+<https://doi.org/10.1111/j.1365-2664.2008.01518.x> <http://purl.org/dc/terms/bibliographicCitation> "Carvalheiro, LG; Barbosa, E.R.M. & Memmott, J. 2008. Pollinator networks, alien species and the conservation of rare plants: Trinia glauca as a case study. Journal of Applied Ecology, 45,1419-1427. DOI: https://doi.org/10.1111/j.1365-2664.2008.01518.x" .
+<https://orcid.org/0000-0002-8675-7068> <http://xmlns.com/foaf/0.1/name> "José Augusto Salim" .
+<https://docs.google.com/spreadsheets/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8> <http://purl.org/pav/authoredBy> <https://orcid.org/0000-0002-8675-7068> .
+<https://docs.google.com/spreadsheets/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8> <http://purl.org/dc/terms/description> "VisitationData_Luisa_Carvalheiro - Template REBIPP Official" .
+<https://docs.google.com/spreadsheets/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8> <http://www.w3.org/ns/prov#hadMember> <https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&gid=776329546> .
+<https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&gid=776329546> <http://purl.org/pav/hasVersion> <hash://md5/c358eabd4b6921597f1bb3c73e6f5a8c> .
+<hash://md5/c358eabd4b6921597f1bb3c73e6f5a8c> <http://www.w3.org/ns/prov#wasDerivedFrom> <hash://md5/a2b31050b50d9e213ed62873f17c6e8e> .
+<hash://md5/c358eabd4b6921597f1bb3c73e6f5a8c> <http://purl.org/dc/elements/1.1/format> "text/tab-separated-values" .
+<hash://md5/c358eabd4b6921597f1bb3c73e6f5a8c> <https://www.w3.org/2002/07/owl#sameAs> <hash://sha256/4d20e242ebfa3a09cafeb3f9a523b6d669b82d8a8ff9f5df63f53ea3fb220a6a> .
+<https://docs.google.com/spreadsheets/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8> <http://www.w3.org/ns/prov#hadMember> <https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&gid=359918449> .
+<https://docs.google.com/spreadsheets/u/1/d/1cJ0qX9ppqHoSyqFykwYJef-DFOzoutthBXjwKRY81T8/export?format=tsv&gid=359918449> <http://purl.org/pav/hasVersion> <hash://md5/cf41a46b0c42100413506bf4132a1ac0> .
+<hash://md5/cf41a46b0c42100413506bf4132a1ac0> <http://purl.org/dc/elements/1.1/format> "text/tab-separated-values" .
+<hash://md5/cf41a46b0c42100413506bf4132a1ac0> <https://www.w3.org/2002/07/owl#sameAs> <hash://sha256/149b9657bc2c7c549bc29e1e08d9f7e5f56b1c85dc9e2f2e18589a9a6043a4ff> .
+<https://doi.org/10.1111/j.1365-2664.2008.01518.x> <http://purl.org/pav/hasVersion> <hash://md5/b9c93efe3e897b19dfc2f8f5f2bce43f> .
+<hash://md5/b9c93efe3e897b19dfc2f8f5f2bce43f> <http://purl.org/dc/elements/1.1/format> "application/pdf" .
+<hash://md5/b9c93efe3e897b19dfc2f8f5f2bce43f> <https://www.w3.org/2002/07/owl#sameAs> <hash://sha256/b83cacd5899d0714d6370186f77ae0c72cab8b4388d62c3ababd599eed8b5362> .
+<hash://md5/cf41a46b0c42100413506bf4132a1ac0> <http://www.w3.org/ns/prov#wasDerivedFrom> <hash://md5/b9c93efe3e897b19dfc2f8f5f2bce43f> .
+<https://raw.githubusercontent.com/globalbioticinteractions/carvalheiro2023/main/eml.xml> <http://purl.org/pav/hasVersion> <hash://md5/644e726d2cd6ea9e926e9e2f50e172d8> .
+<hash://md5/644e726d2cd6ea9e926e9e2f50e172d8> <https://www.w3.org/2002/07/owl#sameAs> <hash://sha256/a06bfd7d29589f51f3ec300039629e4813ca23a1caa413f49de94e74760f6914> .
+<hash://md5/644e726d2cd6ea9e926e9e2f50e172d8> <http://www.w3.org/ns/prov#wasDerivedFrom> <hash://md5/cf41a46b0c42100413506bf4132a1ac0> .
+<hash://md5/644e726d2cd6ea9e926e9e2f50e172d8> <http://purl.org/pav/authoredBy> <https://orcid.org/0000-0002-8675-7068> .
+<https://orcid.org/0000-0003-3138-4118> <http://xmlns.com/foaf/0.1/name> "Jorrit H. Poelen" .
+<hash://md5/644e726d2cd6ea9e926e9e2f50e172d8> <http://purl.org/pav/contributedBy> <https://orcid.org/0000-0003-3138-4118> .
