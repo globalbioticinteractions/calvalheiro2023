@@ -24,6 +24,15 @@ preston verify\
  --remote https://linker.bio,https://zenodo.org
 ```
 
+or
+
+```
+preston verify\
+ --algo sha256\
+ --anchor hash://sha256/dec6efdd95fd64d5c38480e0db0dfa329c94e8e0fc0736f0769cafb470fd13ce\
+ --remote https://linker.bio,https://zenodo.org,https://softwareheritage.org
+```
+
 
 ### Provenance for Humans
 
